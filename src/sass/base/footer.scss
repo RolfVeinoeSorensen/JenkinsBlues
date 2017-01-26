@@ -1,4 +1,8 @@
-﻿.jenkins_ver:after {
+﻿footer{
+    background-color:$color-bg-header;
+}
+
+.jenkins_ver:after {
   margin-left: 15px;
   content: $version;
 }
