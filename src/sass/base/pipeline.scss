@@ -21,3 +21,245 @@
     border-bottom-right-radius: 0px;
     background: $color-bg-header;
 }
+.jobsTable .stage-start-time .date {
+    background-color: $color-bg-odd;
+}
+#pipeline-box .table-box tr td {
+    border: 0px solid rgba(0, 0, 0, 0.05);
+    text-shadow: none !important;
+    padding: 0;
+}
+#pipeline-box .table-box .table-viewPort {
+  display: inline-block;
+  border: 0px solid #ccc;
+  overflow-x: auto;
+  overflow-y: hidden;
+  box-shadow: none !important;
+}
+
+#pipeline-box {
+  position: relative;
+  box-sizing: border-box;
+}
+#pipeline-box .extension-dock {
+  font-size: 11px;
+  text-align: center;
+}
+#pipeline-box .extension-dock .extension {
+  cursor: pointer;
+  float: left;
+  width: 16px;
+  height: 16px;
+}
+#pipeline-box .table-box {
+  padding: 0 0 0 17em;
+}
+#pipeline-box .table-box .cell-color {
+  padding: 1px;
+  position: relative;
+}
+#pipeline-box .table-box col:nth-child(even) {
+  background: rgba(0, 0, 0, 0.03);
+}
+#pipeline-box .table-box td.NOT_EXECUTED .cell-color {
+  display: none;
+}
+#pipeline-box .table-box td.SUCCESS .cell-color {
+  background: $color-green;
+}
+#pipeline-box .table-box td.UNSTABLE .cell-color {
+  background: $color-yellow;
+}
+#pipeline-box .table-box tr.UNSTABLE .cell-color {
+  background: $color-yellow;
+}
+#pipeline-box .table-box tr.FAILED .cell-color {
+  background: $color-red;
+}
+#pipeline-box .table-box tr.FAILED .FAILED .duration {
+  background: repeating-linear-gradient(-45deg, rgba(255, 50, 0, 0.1), rgba(255, 50, 0, 0.1) 20px, rgba(255, 0, 0, 0.15) 20px, rgba(255, 0, 0, 0.15) 40px);
+  box-shadow: none !important;
+}
+#pipeline-box .table-box tr.FAILED .FAILED .duration span {
+  opacity: 1 !important;
+}
+#pipeline-box .table-box tr.job td {
+  height: 6em;
+}
+#pipeline-box .table-box tr td.totalComplete .progress {
+  margin: 2px 5px;
+  position: relative;
+  height: 15px;
+  background: rgba(0, 0, 0, 0.1);
+  box-shadow: none !important;
+}
+#pipeline-box .table-box tr td.totalComplete .progress .time-remaining {
+  position: absolute;
+  display: block;
+  z-index: 2;
+  font-size: 12px;
+  line-height: 15px;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: none !important;
+  left: 10px;
+}
+#pipeline-box .table-box tr td.hide-cell {
+  border: none;
+  padding: 0;
+  width: 0;
+  font-size: 0;
+}
+#pipeline-box .table-box tr td {
+  border: 0px solid rgba(0, 0, 0, 0.05);
+  text-shadow: none !important;
+  padding: 0;
+}
+#pipeline-box .table-box tr td .cell-color {
+  min-height: 5.8em;
+}
+#pipeline-box .table-box tr td .duration {
+  position: absolute;
+  white-space: nowrap;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: auto;
+  padding: .33em .33em 1.33em;
+}
+#pipeline-box .table-box tr td .duration span {
+  display: inline-block;
+}
+#pipeline-box .table-box tr.header th {
+  border: 0px solid rgba(0, 0, 0, 0.025);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  padding: 1em;
+}
+#pipeline-box .table-box tr.header th.stage-start {
+  border: none;
+}
+#pipeline-box .table-box tr:nth-of-type(4n+3),
+#pipeline-box .table-box tr.in-progress-run {
+  background: rgba(0, 0, 0, 0.05);
+}
+#pipeline-box .table-box tr:nth-of-type(4n+3) .stage-start .cell-box,
+#pipeline-box .table-box tr.in-progress-run .stage-start .cell-box {
+  background: rgba(0, 0, 0, 0.05);
+  box-shadow: none !important;
+}
+#pipeline-box .table-box .table-viewPort {
+  display: inline-block;
+  border: 0px solid #ccc;
+  overflow-x: auto;
+  overflow-y: hidden;
+  box-shadow: none !important;
+}
+#pipeline-box .table-box .table-viewPort table {
+  border-spacing: 0;
+}
+#pipeline-box .table-box .table-viewPort tr.totals .cell-color {
+  box-shadow: none !important;
+  background: rgba(0, 0, 0, 0.05);
+  padding: 1.33em .5em 0;
+  min-height: 3.5em;
+}
+#pipeline-box .table-box .table-viewPort tr.totals .stage-start {
+  border: none;
+}
+#pipeline-box .table-box .table-viewPort tr.totals .stage-start .cell-color {
+  text-align: right;
+  padding: .33em 1em;
+  margin: 2px 0 0;
+  background: none;
+  color: rgba(0, 0, 0, 0.25);
+  font-weight: bold;
+  overflow: hidden;
+}
+#pipeline-box .table-box .table-viewPort .stage-end {
+  left: auto;
+  right: 0;
+  position: absolute;
+  width: 100px;
+}
+#pipeline-box .table-box .table-viewPort .stage-start {
+  position: absolute;
+  left: 0px;
+  text-align: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  width: 17em;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin: -1px 0 0;
+}
+#pipeline-box .table-box .table-viewPort .stage-start .cell-color {
+  padding: 0;
+}
+#pipeline-box .table-box .table-viewPort .stage-start .cell-box {
+  display: block;
+  text-align: center;
+  position: relative;
+  font-size: 11px;
+  padding: .5em 0;
+  width: 100%;
+  overflow: hidden;
+}
+#pipeline-box .table-box .table-viewPort .stage-start .cell-box .stage-end-icons {
+  width: 8em;
+  position: absolute;
+  top: 0;
+  left: 10em;
+  border: 1px solid transparent;
+}
+#pipeline-box .table-box .table-viewPort .stage-start .cell-box .stage-end-icons .link {
+  display: block;
+  padding: 3px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #204A87;
+}
+#pipeline-box .table-box .table-viewPort .stage-start .cell-box .stage-start-box {
+  margin: 1.3em 1em 1.3em 2em;
+  clear: both;
+  text-align: left;
+  display: block;
+  width: 14em;
+  position: relative;
+}
+#pipeline-box .table-box .table-viewPort .stage-start .cell-box .stage-start-time {
+  border: 0px solid #acb;
+  border-radius: 0;
+  box-shadow: none !important;
+  float: none;
+  display: inline-block;
+  width: 5em;
+  background: #fff;
+  position: relative;
+  z-index: 2;
+}
+#pipeline-box .table-box .table-viewPort .stage-start .cell-box .jobName {
+  position: absolute;
+  top: .68em;
+  left: .5em;
+  z-index: 3;
+}
+#pipeline-box .table-box .table-viewPort .stage-start .cell-box .stage-start-content {
+  float: left;
+  border: 1px solid;
+}
+#pipeline-box .table-box .table-viewPort .stage-start .cell-box .icon-md {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+#pipeline-box .table-box .table-viewPort .stage-wrapper {
+  min-width: 5em;
+  min-height: 5.8em;
+}
+#pipeline-box .table-box .table-viewPort .stage-wrapper .extension-dock {
+  position: absolute;
+  right: 0px;
+  width: 16px;
+  top: 3px;
+  bottom: 3px;
+}
