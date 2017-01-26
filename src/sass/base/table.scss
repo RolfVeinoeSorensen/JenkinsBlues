@@ -1,7 +1,9 @@
 ﻿table.pane tr:nth-child(odd) td {
   background-color: $color-bg-odd;
 }
-
+.bigtable th {
+    background-color: $color-bg-header;
+}
 th.pane {
   background-color: transparent
 }

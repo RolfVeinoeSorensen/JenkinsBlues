@@ -32,13 +32,29 @@
 
 #projectstatus-tabBar{
     .tabBarFrame {
-        .tabBar{
-            .tab{
+        .tabBar {
+            [type=radio]:checked ~ a{
+                border: solid 0px #f0f0f0;
+                border-bottom: none;
+                background: $color-bg-odd !important;;
+                color: $color-link;
+                font-weight: bold;
+                z-index: 2;
+            }
+            .tab {
                 background-color:$color-bg-header !important;
                 .active{
                     background-color:$color-bg-odd !important;
                 }
-                a{
+                a, a:hover, a:visited, a:link {
+                    position: relative;
+                    display: block;
+                    border: solid 0px #f0f0f0 !important;
+                    border-bottom: none;
+                    text-decoration: none;
+                    padding: 7px 10px;
+                    border-top-left-radius: 3px;
+                    border-top-right-radius: 3px;
                     color:$color-link !important;
                 }
             }
