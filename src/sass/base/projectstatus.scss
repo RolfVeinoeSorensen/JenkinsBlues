@@ -21,11 +21,11 @@
 }
 
 #projectstatus .healthReportDetails table tbody tr td {
-    background-color: $color-white !important;
+    background-color: $color-bg-header !important;
     color: $color-text !important;
 }
 
 #projectstatus .healthReportDetails table tbody tr:hover td {
-    background-color: $color-white !important;
+    background-color: $color-bg-hover !important;
     color: $color-text !important;
 }
