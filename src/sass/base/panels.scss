@@ -17,4 +17,8 @@
 
 .pane-header{
     background-color: $color-bg-header !important;
+    border-bottom: 0px solid #ddd !important;
+}
+.pane-content{
+    background-color: $color-bg-odd !important;
 }
