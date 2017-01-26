@@ -19,9 +19,13 @@ td.progress-bar-done {
 
 td.progress-bar-left {
   border: none !important;
-  background-color: #ccc !important;
+  background-color: $color-bg-header !important;
 }
 
 table.progress-bar {
   border-color: transparent !important;
+}
+
+table.stripped tr:nth-child(even){
+    background-color: $color-bg !important;
 }

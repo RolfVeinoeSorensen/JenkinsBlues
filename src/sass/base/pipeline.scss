@@ -1,0 +1,23 @@
+﻿#pipeline-box .table-box .table-viewPort .stage-start .cell-box .stage-start-time {
+    border: 0px solid #fff;
+    border-radius: 0;
+    box-shadow: none !important;
+    float: none;
+    display: inline-block;
+    width: 5em;
+    background: $color-bg !important;
+    position: relative;
+    z-index: 2;
+}
+.changeset-box {
+    position: absolute;
+    top: 0;
+    left: 5em;
+    bottom: 0;
+    text-align: center;
+    width: 5em;
+    box-shadow: none !important;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background: $color-bg-header;
+}
