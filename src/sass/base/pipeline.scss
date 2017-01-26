@@ -1,6 +1,6 @@
 ﻿#pipeline-box .table-box .table-viewPort .stage-start .cell-box .stage-start-time {
-    border: 0px solid #fff;
-    border-radius: 0;
+    border: 0px solid #fff !important;
+    border-radius: 0 !important;
     box-shadow: none !important;
     float: none;
     display: inline-block;
@@ -17,21 +17,21 @@
     text-align: center;
     width: 5em;
     box-shadow: none !important;
-    border-top-right-radius: 0px;
-    border-bottom-right-radius: 0px;
-    background: $color-bg-header;
+    border-top-right-radius: 0px !important;
+    border-bottom-right-radius: 0px !important;
+    background: $color-bg-header !important;
 }
 .jobsTable .stage-start-time .date {
     background-color: $color-bg-odd;
 }
 #pipeline-box .table-box tr td {
-    border: 0px solid rgba(0, 0, 0, 0.05);
+    border: 0px solid rgba(0, 0, 0, 0.05) !important;
     text-shadow: none !important;
     padding: 0;
 }
 #pipeline-box .table-box .table-viewPort {
   display: inline-block;
-  border: 0px solid #ccc;
+  border: 0px solid #ccc !important;
   overflow-x: auto;
   overflow-y: hidden;
   box-shadow: none !important;
@@ -65,16 +65,16 @@
   display: none;
 }
 #pipeline-box .table-box td.SUCCESS .cell-color {
-  background: $color-green;
+  background: $color-green !important;
 }
 #pipeline-box .table-box td.UNSTABLE .cell-color {
-  background: $color-yellow;
+  background: $color-yellow !important;
 }
 #pipeline-box .table-box tr.UNSTABLE .cell-color {
-  background: $color-yellow;
+  background: $color-yellow !important;
 }
 #pipeline-box .table-box tr.FAILED .cell-color {
-  background: $color-red;
+  background: $color-red !important;
 }
 #pipeline-box .table-box tr.FAILED .FAILED .duration {
   background: repeating-linear-gradient(-45deg, rgba(255, 50, 0, 0.1), rgba(255, 50, 0, 0.1) 20px, rgba(255, 0, 0, 0.15) 20px, rgba(255, 0, 0, 0.15) 40px);
@@ -105,13 +105,13 @@
   left: 10px;
 }
 #pipeline-box .table-box tr td.hide-cell {
-  border: none;
+  border: none !important;
   padding: 0;
   width: 0;
   font-size: 0;
 }
 #pipeline-box .table-box tr td {
-  border: 0px solid rgba(0, 0, 0, 0.05);
+  border: 0px solid rgba(0, 0, 0, 0.05) !important;
   text-shadow: none !important;
   padding: 0;
 }
@@ -132,12 +132,12 @@
   display: inline-block;
 }
 #pipeline-box .table-box tr.header th {
-  border: 0px solid rgba(0, 0, 0, 0.025);
-  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  border: 0px solid rgba(0, 0, 0, 0.025) !important;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1) !important;
   padding: 1em;
 }
 #pipeline-box .table-box tr.header th.stage-start {
-  border: none;
+  border: none !important;
 }
 #pipeline-box .table-box tr:nth-of-type(4n+3),
 #pipeline-box .table-box tr.in-progress-run {
@@ -150,13 +150,13 @@
 }
 #pipeline-box .table-box .table-viewPort {
   display: inline-block;
-  border: 0px solid #ccc;
+  border: 0px solid #ccc !important;
   overflow-x: auto;
   overflow-y: hidden;
   box-shadow: none !important;
 }
 #pipeline-box .table-box .table-viewPort table {
-  border-spacing: 0;
+  border-spacing: 0 !important;
 }
 #pipeline-box .table-box .table-viewPort tr.totals .cell-color {
   box-shadow: none !important;
@@ -165,7 +165,7 @@
   min-height: 3.5em;
 }
 #pipeline-box .table-box .table-viewPort tr.totals .stage-start {
-  border: none;
+  border: none !important;
 }
 #pipeline-box .table-box .table-viewPort tr.totals .stage-start .cell-color {
   text-align: right;
@@ -186,9 +186,9 @@
   position: absolute;
   left: 0px;
   text-align: center;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 0px solid rgba(0, 0, 0, 0.1) !important;
   width: 17em;
-  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: 0px solid rgba(0, 0, 0, 0.1) !important;
   overflow: hidden;
   margin: -1px 0 0;
 }
@@ -209,7 +209,7 @@
   position: absolute;
   top: 0;
   left: 10em;
-  border: 1px solid transparent;
+  border: 0px solid transparent !important;
 }
 #pipeline-box .table-box .table-viewPort .stage-start .cell-box .stage-end-icons .link {
   display: block;
@@ -227,13 +227,13 @@
   position: relative;
 }
 #pipeline-box .table-box .table-viewPort .stage-start .cell-box .stage-start-time {
-  border: 0px solid #acb;
-  border-radius: 0;
+  border: 0px solid #acb !important;
+  border-radius: 0 !important;
   box-shadow: none !important;
   float: none;
   display: inline-block;
   width: 5em;
-  background: #fff;
+  background: $color-bg-header;
   position: relative;
   z-index: 2;
 }
@@ -245,7 +245,7 @@
 }
 #pipeline-box .table-box .table-viewPort .stage-start .cell-box .stage-start-content {
   float: left;
-  border: 1px solid;
+  border: 0px solid !important;
 }
 #pipeline-box .table-box .table-viewPort .stage-start .cell-box .icon-md {
   position: absolute;
@@ -262,4 +262,15 @@
   width: 16px;
   top: 3px;
   bottom: 3px;
+}
+
+.task-icon-link[href='/'] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    height: 0px;
+    width: 0px;
+    z-index: -1;
+    padding: 0px;
 }
