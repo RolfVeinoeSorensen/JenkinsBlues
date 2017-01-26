@@ -22,7 +22,7 @@
     background: $color-bg-header !important;
 }
 .jobsTable .stage-start-time .date {
-    background-color: $color-bg-odd;
+    background-color: $color-bg-odd !important;
 }
 #pipeline-box .table-box tr td {
     border: 0px solid rgba(0, 0, 0, 0.05) !important;
@@ -437,4 +437,78 @@
 }
 .jobsTable .stage-end-icons:hover .icon-label {
   display: inline-block;
+}
+
+.run-changeset .icon-sm {
+  margin-top: 4px;
+}
+.run-changeset-details {
+  margin-bottom: 0px;
+}
+.run-changeset-details .contributor {
+  font-weight: bolder;
+}
+.run-changeset-details .body table {
+  width: 100%;
+}
+.run-changeset-details .body .commitId {
+  width: 60px;
+}
+.run-changeset-details .body .label {
+  text-shadow: none;
+}
+.run-changeset-details .body .label a,
+.run-changeset-details .body .label a:visited {
+  color: $color-link;
+  text-decoration: none;
+}
+.run-changeset-details .body .label:hover {
+  background-color: $color-text;
+}
+.run-changeset-details .body .label:hover a,
+.run-changeset-details .body .label:hover a:visited {
+  color: $color-grey;
+}
+.run-changeset-details .body .message {
+  vertical-align: middle;
+  max-width: 300px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.changeset-box {
+  position: absolute;
+  top: 0;
+  left: 5em;
+  bottom: 0;
+  text-align: center;
+  width: 5em;
+  box-shadow: none !important;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  background: rgba(0, 0, 0, 0.1);
+}
+.changeset-box .run-changeset {
+  padding: 5px;
+  color: $color-text;
+  background: rgba(0, 0, 0, 0.3);
+  text-shadow: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  cursor: pointer;
+}
+.changeset-box .run-changeset .changes,
+.changeset-box .run-changeset .num {
+  padding: 1px;
+}
+.changeset-box.no-changes {
+  color: $color-grey;
+  text-shadow: none !important;
+  line-height: 140%;
+  padding: 3px 0;
 }
