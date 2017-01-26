@@ -29,3 +29,19 @@
     background-color: $color-bg-hover !important;
     color: $color-text !important;
 }
+
+#projectstatus-tabBar{
+    .tabBarFrame {
+        .tabBar{
+            .tab{
+                background-color:$color-bg-header !important;
+                .active{
+                    background-color:$color-bg-odd !important;
+                }
+                a{
+                    color:$color-link !important;
+                }
+            }
+        }
+    }
+}
