@@ -1,0 +1,42 @@
+﻿body, table, form, td, th, p {
+  color: $color-text !important;
+}
+
+body {
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 13px !important;
+  line-height: 20px !important;
+  background-color: $color-bg;
+}
+
+a, a:hover, a:visited, a:link {
+  text-decoration: none !important;
+  color: $color-link;
+  &:hover {
+    opacity: 0.75;
+  }
+}
+
+:not(div.ace_editor) {
+  font-family: 'Roboto', sans-serif !important;
+  outline: none;
+}
+
+[style^="color:gray"] {
+  color: $color-grey !important;
+}
+
+[style^="color:red"] {
+  color: $color-red !important;
+}
+
+pre {
+  a {
+    cursor: pointer !important;
+  }
+}
+
+.left-bar {
+  top: 27px !important;
+  left: 16px !important;
+}

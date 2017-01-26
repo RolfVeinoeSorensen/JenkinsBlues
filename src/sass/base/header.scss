@@ -1,0 +1,62 @@
+﻿#header {
+    background-image: url('jenkins_logo.png');
+    background-repeat: no-repeat;
+    background-size: 149px 48px;
+    background-position: 10px 10px;
+    height: 64px;
+    background-color: $color-primary;
+    text-transform: uppercase;
+    right: 0;
+    left: 0;
+    top: 0;
+    letter-spacing: 1px;
+    padding: 12px 10px;
+    z-index: 2000;
+
+    .login {
+        top: inherit;
+        margin-top: 3px;
+    }
+
+    .login b {
+        font-weight: 400;
+    }
+
+    #search-box {
+        background: $color-bg;
+        padding-left: 10px;
+    }
+}
+
+.top-sticker-inner {
+    background: none repeat scroll 0 0 $color-white !important;
+}
+
+.bottom-sticker-edge {
+    display: none;
+}
+
+.bottom-sticker-inner {
+    margin: 0 0 0 -15px;
+    padding-left: 15px;
+    background: none repeat scroll 0 0 $color-white !important;
+    box-shadow: $color-white 0 3px 8px 1px;
+}
+
+#jenkins-home-link {
+    display: none !important;
+}
+
+a#open-blueocean-in-context.try-blueocean.header-callout {
+    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/PjxzdmcgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgNjQgNjQiIGhlaWdodD0iNjRweCIgdmVyc2lvbj0iMS4xIiB2aWV3Qm94PSIwIDAgNjQgNjQiIHdpZHRoPSI2NHB4IiB4bWw6c3BhY2U9InByZXNlcnZlIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48ZyBpZD0iTGF5ZXJfMSI+PGc+PGNpcmNsZSBjeD0iMzIiIGN5PSIzMiIgZmlsbD0iIzc3QjNENCIgcj0iMzIiLz48L2c+PGcgb3BhY2l0eT0iMC4yIj48cGF0aCBkPSJNNDgsMzcuMDc3QzQ4LDQ2LjQyMyw0MC44MzcsNTQsMzIsNTRzLTE2LTcuNTc3LTE2LTE2LjkyM1MyNS42LDIwLjE1NCwzMiwxMCAgICBDMzguNCwyMC4xNTQsNDgsMjcuNzMxLDQ4LDM3LjA3N3oiIGZpbGw9IiMyMzFGMjAiLz48L2c+PGc+PHBhdGggZD0iTTQ4LDM1LjA3N0M0OCw0NC40MjMsNDAuODM3LDUyLDMyLDUycy0xNi03LjU3Ny0xNi0xNi45MjNTMjUuNiwxOC4xNTQsMzIsOCAgICBDMzguNCwxOC4xNTQsNDgsMjUuNzMxLDQ4LDM1LjA3N3oiIGZpbGw9IiNGRkZGRkYiLz48L2c+PC9nPjxnIGlkPSJMYXllcl8yIi8+PC9zdmc+) !important;
+    background-size: 20px 20px;
+    width: 20px !important;
+    height: 20px !important;
+    position: absolute !important;
+    left: 180px !important;
+    top: 25px !important;
+    text-indent: 100% !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+    border:none !important;
+}

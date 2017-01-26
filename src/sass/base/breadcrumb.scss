@@ -1,0 +1,25 @@
+﻿#breadcrumbBar {
+  #breadcrumbs {
+    border: none !important;
+  }
+}
+
+#breadcrumb-menu[style*='top: -27px;'] {
+  margin-top: 26px;
+}
+
+.top-sticker-inner {
+  background: none repeat scroll 0 0$color-white !important;
+}
+
+#breadcrumbs LI:hover,
+A.breadcrumbBarAnchor.mouseIsOverMenuSelector {
+  background-color: transparent !important;
+  color:$color-link !important
+}
+
+#breadcrumbs {
+  color: #888 !important;
+  text-decoration: none;
+  text-shadow: 0 1px #fff
+}

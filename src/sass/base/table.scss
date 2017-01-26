@@ -1,0 +1,25 @@
+﻿table.pane tr:nth-child(odd) td {
+  background-color: $color-white
+}
+
+th.pane {
+  background-color: transparent
+}
+table.progress-bar.red td.progress-bar-done {
+  background-color: $color-red !important;
+  border-color: $color-red !important;
+}
+
+td.progress-bar-done {
+  background-color: $color-green !important;
+  border-color: $color-green !important;
+}
+
+td.progress-bar-left {
+  border: none !important;
+  background-color: #ccc !important;
+}
+
+table.progress-bar {
+  border-color: transparent !important;
+}

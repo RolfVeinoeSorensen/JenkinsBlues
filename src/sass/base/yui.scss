@@ -1,0 +1,41 @@
+﻿.yui-button {
+  button {
+    text-decoration: none;
+    text-align: center;
+    letter-spacing: .5px;
+    -webkit-transition: .2s ease-out;
+    -moz-transition: .2s ease-out;
+    -o-transition: .2s ease-out;
+    transition: .2s ease-out;
+    cursor: pointer;
+    border: none !important;
+    border-radius: 2px;
+    display: inline-block;
+    outline: 0;
+    padding: 0 2rem;
+    text-transform: uppercase;
+    vertical-align: middle;
+    -webkit-tap-highlight-color: transparent;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  }
+  &.primary button {
+    color: $color-white !important;
+    background-color: $color-primary !important;
+  }
+
+  & + .yui-button {
+    margin-left: 1em;
+  }
+
+}
+
+.yuimenuitem-selected {
+  background-color: $color-primary !important;
+  & > a {
+    color: $color-white !important;
+
+    & > img {
+      filter: brightness(10000);
+    }
+  }
+}

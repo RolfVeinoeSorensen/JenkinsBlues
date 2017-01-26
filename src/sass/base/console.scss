@@ -1,0 +1,20 @@
+﻿.console-output .error-inline {
+  color: $color-red;
+}
+
+.console-output, .console-output * {
+  position: relative;
+  font-family: 'Roboto Mono', monospace !important;
+  font-size: 14px;
+  background:$console-bg;
+  color:$console-text;
+  cursor: text;
+}
+
+.console-output {
+  padding: 10px 20px;
+}
+
+#console-outline-body > li {
+  list-style-type: none;
+}
