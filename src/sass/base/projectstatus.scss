@@ -13,10 +13,10 @@
 }
 
 #projectstatus tr:hover {
-  background-color: #f0f0f0 !important;
+  background-color: $color-bg-hover !important;
 
   td {
-    background-color: #f0f0f0 !important;
+    background-color: $color-bg-hover !important;
   }
 }
 
