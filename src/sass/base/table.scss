@@ -1,5 +1,5 @@
 ﻿table.pane tr:nth-child(odd) td {
-  background-color: $color-white
+  background-color: $color-bg-odd;
 }
 
 th.pane {
@@ -22,4 +22,8 @@ td.progress-bar-left {
 
 table.progress-bar {
   border-color: transparent !important;
+}
+
+.healthReport .hover{
+    background-color: $color-bg-odd;
 }

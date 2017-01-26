@@ -5,6 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7BF94A53-95C9-4395-868C-F3D1DBC3E25D}"
 	ProjectSection(SolutionItems) = preProject
+		Jenkinsfile = Jenkinsfile
 		LICENSE = LICENSE
 		README.md = README.md
 	EndProjectSection
