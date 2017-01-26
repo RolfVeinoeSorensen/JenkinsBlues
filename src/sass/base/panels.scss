@@ -15,9 +15,10 @@
     border-radius: 0px;
 }
 
-.pane-header{
+.pane-header, .pane-footer {
     background-color: $color-bg-header !important;
-    border-bottom: 0px solid #ddd !important;
+    border-bottom: none !important;
+    border-top: none !important;
 }
 .pane-content{
     background-color: $color-bg-odd !important;
