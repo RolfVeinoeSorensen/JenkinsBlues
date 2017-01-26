@@ -1,0 +1,11 @@
+﻿#jenkins .jenkins-config {
+    border: 1px solid #cccccc;
+    padding: 10px;
+    border-top: none;
+    background: $color-bg;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-bottom-left-radius: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    -moz-border-bottom-right-radius: 3px;
+    border-top-bottom-radius: 3px;
+}
