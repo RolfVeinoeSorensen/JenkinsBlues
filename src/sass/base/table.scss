@@ -24,6 +24,6 @@ table.progress-bar {
   border-color: transparent !important;
 }
 
-.healthReport .hover{
-    background-color: $color-bg-odd;
+table.healthReport.hover{
+    background-color: $color-bg-hover;
 }
