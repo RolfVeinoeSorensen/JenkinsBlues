@@ -29,7 +29,7 @@
 }
 
 .top-sticker-inner {
-    background: none repeat scroll 0 0 $color-white !important;
+  background: none repeat scroll 0 0 $color-bg-odd !important;
 }
 
 .bottom-sticker-edge {
@@ -37,10 +37,10 @@
 }
 
 .bottom-sticker-inner {
-    margin: 0 0 0 -15px;
-    padding-left: 15px;
-    background: none repeat scroll 0 0 $color-white !important;
-    box-shadow: $color-white 0 3px 8px 1px;
+  margin: 0 0 0 -15px;
+  padding-left: 15px;
+  background: none repeat scroll 0 0 $color-bg-odd !important;
+  /*box-shadow: $color-white 0 3px 8px 1px;*/
 }
 
 #jenkins-home-link {
