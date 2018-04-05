@@ -1,5 +1,5 @@
 ﻿.task-link[href='/'] {
-  /*display: none;*/
+  display: none;
 }
 
 .task-icon-link[href='/'] {
@@ -9,11 +9,12 @@
   background-color: $color-bg-header !important;
   height: 64px;
   width: 64px;
-  z-index: 3000;
+  z-index: -3000;
   padding: 12px;
   border-radius: 50%;
+  display: none;
 
   &:hover {
-    opacity: 1 !important;
+    opacity: 0 !important;
   }
 }
