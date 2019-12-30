@@ -16,10 +16,13 @@ a, a:visited, a:link {
     opacity: 0.75;
   }
 }
+a:hover{
+    color: #0b357e;
+}
 
 :not(div.ace_editor) {
-  font-family: 'Roboto', sans-serif !important;
-  outline: none;
+    font-family: 'Roboto', sans-serif !important;
+    outline: none;
 }
 
 [style^="color:gray"] {
