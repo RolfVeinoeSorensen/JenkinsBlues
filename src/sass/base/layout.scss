@@ -9,7 +9,7 @@ body {
   background-color: $color-bg;
 }
 
-a, a:hover, a:visited, a:link {
+a, a:visited, a:link {
   text-decoration: none !important;
   color: $color-link;
   &:hover {
